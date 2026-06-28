@@ -18,7 +18,7 @@ When working with Microsoft Entra ID (formerly Azure AD), understanding the diff
 | **Scope** | Organization-wide identity definition | Tenant-specific access and permissions |
 | **Number in Tenant** | One per app | Can have multiple (if multi-tenant or added via gallery) |
 | **Configuration Focus** | Authentication flows, credentials, URIs | Permissions, role assignments, user assignments |
-| **Manages** | App credentials, certificates, API permissions | Who can access the app, what roles they have |
+| **Manages** | <b>App credentials, certificates, API permissions </b> | Who can access the app, what roles they have |
 
 ---
 
