@@ -693,7 +693,9 @@ PowerShell script uses: Connect-MgGraph -ClientId $clientId -TenantId $tenantId 
 - App Registrations is where you register your applications, while Enterprise Applications is where you manage access to these applications.
 - [Enterprise Applications](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/7-configure-pre-integrated-gallery-saas-apps)
 - Think of it like a class and an object in code. An App Registration is the blueprint (the class definition). An Enterprise Application (Service Principal) is the deployed instance of that blueprint running in your tenant (the object).
-- Here's the key rule: every App Registration in your home tenant automatically generates an Enterprise Application in that same tenant. 
+- Here's the key rule: every App Registration in your home tenant automatically generates an Enterprise Application in that same tenant.
+- <img width="1440" height="1040" alt="image" src="https://github.com/user-attachments/assets/67784f01-7f95-4587-9a3f-2ffe89c5e910" />
+
 
 
 ## Contributing
