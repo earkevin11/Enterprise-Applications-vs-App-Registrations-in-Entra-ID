@@ -1,0 +1,1 @@
+# Enterprise-Applications-vs-App-Registrations-in-Entra-ID
