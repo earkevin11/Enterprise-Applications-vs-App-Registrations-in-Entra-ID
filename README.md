@@ -29,6 +29,10 @@ When working with Microsoft Entra ID (formerly Azure AD), understanding the diff
 #### **Purpose**
 An **App Registration** is the first step in integrating an application with Entra ID. It registers your application with the identity platform, allowing it to authenticate users and call protected APIs.
 
+### Why?
+
+### Each application you want the Microsoft identity platform to perform identity and access management (IAM) for must be registered. Register an app in the Azure portal so the Microsoft identity platform can provide authentication and authorization services for your application and its users. Whether it's a client application, like a web or mobile app, or a web API that backs a client app, registering it <b> establishes a trust relationship between your application and the identity provider, the Microsoft identity platform. </b>
+
 **Key Points:**
 - It's a **developer-focused** artifact
 - Represents the **application itself** in Entra ID
