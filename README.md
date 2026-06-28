@@ -341,6 +341,8 @@ Example:
 #### **Purpose**
 An **App Registration** is the first step in integrating an application with Entra ID. It registers your application with the identity platform, allowing it to authenticate users and call protected APIs.
 
+### Each application you want the Microsoft identity platform to perform identity and access management (IAM) for must be registered. Register an app in the Azure portal so the Microsoft identity platform can provide authentication and authorization services for your application and its users. Whether it's a client application, like a web or mobile app, or a web API that backs a client app, registering it <b> establishes a trust relationship between your application and the identity provider, the Microsoft identity platform. </b>
+
 **Key Points:**
 - It's a **developer-focused** artifact
 - Represents the **application itself** in Entra ID
@@ -687,6 +689,12 @@ PowerShell script uses: Connect-MgGraph -ClientId $clientId -TenantId $tenantId 
 | **Authenticates?** | YES - Uses credentials to prove identity | NO - Relies on App Registration authentication |
 
 ---
+
+## Key Differences
+- Apps added through Microsoft Entra ID - App registrations are by default OIDC-based apps, while apps added through Microsoft Entra ID - Enterprise applications might use any SSO standard.
+- App Registrations is where you register your applications, while Enterprise Applications is where you manage access to these applications.
+- [Enterprise Applications](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/7-configure-pre-integrated-gallery-saas-apps)
+
 
 ## Contributing
 
