@@ -692,6 +692,8 @@ PowerShell script uses: Connect-MgGraph -ClientId $clientId -TenantId $tenantId 
 - Apps added through Microsoft Entra ID - App registrations are by default OIDC-based apps, while apps added through Microsoft Entra ID - Enterprise applications might use any SSO standard.
 - App Registrations is where you register your applications, while Enterprise Applications is where you manage access to these applications.
 - [Enterprise Applications](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/7-configure-pre-integrated-gallery-saas-apps)
+- Think of it like a class and an object in code. An App Registration is the blueprint (the class definition). An Enterprise Application (Service Principal) is the deployed instance of that blueprint running in your tenant (the object).
+- Here's the key rule: every App Registration in your home tenant automatically generates an Enterprise Application in that same tenant. 
 
 
 ## Contributing
