@@ -297,6 +297,7 @@ PowerShell script uses: Connect-MgGraph -ClientId $clientId -TenantId $tenantId 
 - [Microsoft Entra ID App Registration Documentation](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app)
 - [Service Principal in Entra ID](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals)
 - [Single Sign-On in Enterprise Applications](https://learn.microsoft.com/en-us/entra/identity/enterprise-apps/add-application-portal)
+- 
 
 ---
 
@@ -309,6 +310,11 @@ PowerShell script uses: Connect-MgGraph -ClientId $clientId -TenantId $tenantId 
 | **Main question it answers** | "Who is this application?" | "Who can use this application?" |
 | **Focus** | **Authentication** | **Authorization & Access Control** |
 | **Manages** | App credentials, API permissions | User access, roles, policies |
+
+## Key Differences
+- Apps added through Microsoft Entra ID - App registrations are by default OIDC-based apps, while apps added through Microsoft Entra ID - Enterprise applications might use any SSO standard.
+- App Registrations is where you register your applications, while Enterprise Applications is where you manage access to these applications.
+- [Enterprise Applications](https://learn.microsoft.com/en-us/training/modules/plan-design-integration-of-enterprise-apps-for-sso/7-configure-pre-integrated-gallery-saas-apps)
 
 ---
 
